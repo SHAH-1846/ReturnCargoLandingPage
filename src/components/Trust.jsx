@@ -8,7 +8,7 @@ const Trust = () => {
         
         <div className="grid grid-2" style={{ marginBottom: '60px' }}>
           <div className="card">
-            <div className="icon">🛡️</div>
+            <div style={{ fontSize: '4rem', marginBottom: '20px' }}>🛡️</div>
             <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '15px' }}>
               Protected Leads
             </h3>
@@ -18,7 +18,7 @@ const Trust = () => {
           </div>
           
           <div className="card">
-            <div className="icon">📍</div>
+            <div style={{ fontSize: '4rem', marginBottom: '20px' }}>📍</div>
             <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '15px' }}>
               Live Tracking & OTP
             </h3>
@@ -28,7 +28,7 @@ const Trust = () => {
           </div>
           
           <div className="card">
-            <div className="icon">💎</div>
+            <div style={{ fontSize: '4rem', marginBottom: '20px' }}>💎</div>
             <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '15px' }}>
               Transparent Token System
             </h3>
@@ -38,7 +38,7 @@ const Trust = () => {
           </div>
           
           <div className="card">
-            <div className="icon">🎯</div>
+            <div style={{ fontSize: '4rem', marginBottom: '20px' }}>🎯</div>
             <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '15px' }}>
               One Active Trip Rule
             </h3>
@@ -48,7 +48,7 @@ const Trust = () => {
           </div>
           
           <div className="card">
-            <div className="icon">⚙️</div>
+            <div style={{ fontSize: '4rem', marginBottom: '20px' }}>⚙️</div>
             <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '15px' }}>
               Admin Controls & Route Data
             </h3>
@@ -58,7 +58,7 @@ const Trust = () => {
           </div>
           
           <div className="card">
-            <div className="icon">🏆</div>
+            <div style={{ fontSize: '4rem', marginBottom: '20px' }}>🏆</div>
             <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '15px' }}>
               24/7 Support
             </h3>

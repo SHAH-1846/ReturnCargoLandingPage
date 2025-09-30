@@ -18,24 +18,43 @@ const Footer = () => {
             <div style={{ 
               display: 'flex', 
               alignItems: 'center', 
-              gap: '12px',
+              gap: '16px',
               marginBottom: '20px'
             }}>
               <img 
-                src="/logo/image.png" 
+                src="/logo/LogoBackgroundRemoved.png" 
                 alt="ReturnCargo" 
-                style={{ height: '32px', width: 'auto' }}
+                style={{ 
+                  height: '80px', 
+                  width: 'auto',
+                  filter: 'brightness(1.2) contrast(1.1)',
+                  borderRadius: '6px'
+                }}
                 onError={(e) => {
                   e.target.style.display = 'none';
-                  e.target.nextSibling.style.display = 'block';
+                  e.target.nextSibling.style.display = 'flex';
                 }}
               />
               <div style={{ 
                 display: 'none', 
-                fontSize: '20px', 
+                fontSize: '24px', 
                 fontWeight: '700', 
-                color: '#2563eb' 
+                color: 'white',
+                alignItems: 'center',
+                gap: '10px'
               }}>
+                <div style={{
+                  width: '32px',
+                  height: '32px',
+                  background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)',
+                  borderRadius: '8px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: '16px'
+                }}>
+                  🚛
+                </div>
                 ReturnCargo
               </div>
             </div>
