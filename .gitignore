@@ -19,7 +19,6 @@ pids/
 .env.*.local
 
 # Build outputs
-dist/
 build/
 out/
 .next/
